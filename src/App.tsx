@@ -1,14 +1,13 @@
-import { useState } from "react";
 import "./App.css";
 
-import Category from "./pages/Department";
+import Search from "./pages/DoubleTable/Search";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
-      <Category />
+      <Search />
     </>
   );
 }
