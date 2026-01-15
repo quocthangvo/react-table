@@ -1,13 +1,11 @@
 import "./App.css";
 
-import Search from "./pages/DoubleTable/Search";
+import Person from "./pages/Person";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
-      <Search />
+      <Person />
     </>
   );
 }
